@@ -1,12 +1,13 @@
-[200~#include "main.h"
-
+# include "main.h"
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
- *     */
-int main(void)
+ * print_numbers - Prints numbers from 0 - 9
+ * Return: 0 always a success
+ */
+void print_numbers(void)
 {
-		print_numbers();
-			return (0);
+	int c;
+
+	for (c = 48; c <= 57; c++)
+		_putchar(c);
+	_putchar('\n');
 }
