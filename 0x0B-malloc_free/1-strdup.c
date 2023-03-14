@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * *_strdup - copies the string given as parameter
@@ -30,6 +30,3 @@ char *_strdup(char *str)
 
 	return (duplicate);
 }
-
-
-
