@@ -8,8 +8,10 @@
  */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
+	unsigned int i;
 	unsigned long int result = 1;
-	for (unsigned int i = 0; i < power; i++) {
+
+	for (i = 0; i < power; i++) {
 		result *= base;
 	}
 	return result;

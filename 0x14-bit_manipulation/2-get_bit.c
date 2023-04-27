@@ -14,9 +14,10 @@ int get_bit(unsigned long int n, unsigned int index)
     }
     else
     {
-        unsigned long int div = 1;
+        unsigned long int div,h;
+        div = 1;
         div = div << index;
-        unsigned long int h = n & div;
+        h = n & div;
         if (h == div)
         {
             return (1);
