@@ -14,6 +14,6 @@ int bitShift;
 if (index > 32)
 return (-1);
 
-bitShift = (number >> index) & 1;
+bitShift = (n >> index) & 1;
 return (bitShift);
 }
